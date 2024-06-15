@@ -5,11 +5,11 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(true);
   return (
     <div>
-        <nav id="desktop-nav" className="hidden lg:flex justify-around items-center h-[17vh]">
+        <nav id="desktop-nav" className="hidden lg:flex justify-around items-center h-[14vh]">
             <div class="logo" className='text-4xl hover:cursor-default'>Ashutosh Sagar</div>
             <div>
                 <ul class="nav-links" className='flex gap-8 list-none text text-2xl'>
-                <li><a className='text-black no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[1rem] hover:decoration-[#b5b5b5]' href="#about">About</a></li>
+                <li><a href="#about" className='text-black no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[1rem] hover:decoration-[#b5b5b5]'>About</a></li>
                 <li><a className='text-black no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[1rem] hover:decoration-[#b5b5b5]' href="#experience">Experience</a></li>
                 <li><a className='text-black no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[1rem] hover:decoration-[#b5b5b5]' href="#projects">Projects</a></li>
                 <li><a className='text-black no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[1rem] hover:decoration-[#b5b5b5]' href="#contact">Contact</a></li>

@@ -5,12 +5,12 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 function Profile() {
   return (
     <div >
-        <section id='profile' className='flex justify-center gap-[5rem] h-[90vh] pt-[4vh] mx-[10rem] box-border min-h-fit'>
-            <div className='lg:flex hidden h-[450px] w-[400px] my-auto mx-0'>
-                <img className='rounded-full bg-gradient-to-r from-stone-300 to-zinc-300 h-96 w-96' src={HeroPic} alt="Ashutosh Sagar"/>
+        <section id='profile' className='block lg:flex justify-center gap-[5rem] pt-[4vh] lg:min-h-[80vh] lg:mx-[10rem] box-border min-h-fit'>
+            <div className='lg:flex flex flex-col justify-center my-auto max-w-full'>
+                <img className='mx-auto rounded-full bg-gradient-to-r from-stone-300 to-zinc-300 lg:h-96 lg:w-96 h-72 w-72 max-w-full max-h-full' src={HeroPic} alt="Ashutosh Sagar"/>
             </div>
             <div className='self-center text-center'>
-                <p className='font-semibold text-center'>Hello, I'm</p>
+                <p className='font-semibold text-center mt-4'>Hello, I'm</p>
                 <h1 className='text-[3rem] text-center'>Ashutosh Sagar</h1>
                 <p className='font-semibold text-[1.7rem] mb-[1rem]'>Frontend Developer</p>
                 <div className='flex justify-center gap-[1rem]'>
