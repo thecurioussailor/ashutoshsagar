@@ -9,7 +9,7 @@ function Contact() {
         <section id='contact' className='flex flex-col justify-center gap-[1rem] pt-[1vh] mx-[5rem] lg:mx-[10rem] box-border h-fit min-h-[70vh]'>
             <p className='text-center text-zinc-500'>Get in Touch</p>
             <h1 className='text-center text-5xl mb-[2rem]'>Contact Me</h1>
-            <div className='flex justify-center rounded-[2rem] border-2 border-zinc-500 mx-auto'>
+            <div className='flex flex-col md:flex-row lg:flex-row justify-center lg:rounded-[2rem] rounded-[1rem] border-2 border-zinc-500 mx-auto'>
               <div className='flex items-center justify-center gap-[0.5rem] m-[1rem]'>
                 {/* <img className='h-[2.5rem]' src={Mail}/> */}
                 <p>

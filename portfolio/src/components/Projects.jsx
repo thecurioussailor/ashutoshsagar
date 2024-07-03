@@ -26,11 +26,11 @@ const projects = [
 function Projects() {
   return (
     <>
-        <section id='projects' className='flex flex-col justify-center gap-[1rem] pt-[1vh] mx-[10rem] box-border h-fit min-h-[100vh]'>
+        <section id='projects' className='flex flex-col justify-center gap-[1rem] pt-[1vh] mx-[5rem] lg:mx-[10rem] box-border h-fit min-h-[100vh]'>
             <p className='text-center text-slate-500'>Browse My Recent</p>
             <h1 className='text-[3rem] text-center'>Projects</h1>
             <div className='flex justify-center flex-col'>
-                <div className='grid grid-cols-3 gap-[2rem] my-[2rem]'>
+                <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-[2rem] my-[2rem]'>
                   {projects.map(item => (
                     <ProjectItem img={item.img} title={item.title} git={item.git} live={item.live}/>
                   ))}
