@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutPic from "../assets/about-pic.png"
+import AboutPic from "../assets/ashu-redfort.png"
 import ExpIcon from "../assets/experience.png"
 import Education from "../assets/education.png"
 import { MdBatchPrediction } from 'react-icons/md'
