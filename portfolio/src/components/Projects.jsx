@@ -1,6 +1,8 @@
 import React from 'react'
 import ProjectItem from './ProjectItem';
-import Project1 from "../assets/project-1.png"
+import Project1 from "../assets/swarna-pic.png"
+import Project2 from "../assets/project-2.png"
+import Project3 from "../assets/project-3.png"
 
 const projects = [
   {
@@ -10,13 +12,13 @@ const projects = [
     live:"https://swarna.vercel.app/"
   },
   {
-    img: Project1,
+    img: Project2,
     title:"Swarna",
     git:"https://github.com/thecurioussailor/swarna",
     live:"https://swarna.vercel.app/"
   },
   {
-    img: Project1,
+    img: Project3,
     title:"Swarna",
     git:"https://github.com/thecurioussailor/swarna",
     live:"https://swarna.vercel.app/"
