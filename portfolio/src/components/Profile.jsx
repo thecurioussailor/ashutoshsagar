@@ -14,12 +14,16 @@ function Profile() {
                 <h1 className='text-[3rem] text-center'>Ashutosh Sagar</h1>
                 <p className='font-semibold text-[1.7rem] mb-[1rem]'>Frontend Developer</p>
                 <div className='flex justify-center gap-[1rem]'>
-                    <button className='font-semibold p-4 border-2 rounded-3xl'>
-                        Download CV
-                    </button>
-                    <button className='font-semibold p-4 border-2 rounded-3xl'>
-                        Contact Info
-                    </button>
+                    <a href='https://drive.google.com/file/d/16YOmpS4WAiqfw5aewdNGxY4SaU5ONbzP/view?usp=sharing' target='_blank'>
+                        <button className='font-semibold p-4 border-2 rounded-3xl'>
+                            Download CV
+                        </button>
+                    </a>
+                    <a href='#contact'>
+                        <button className='font-semibold p-4 border-2 rounded-3xl'>
+                            Contact Info
+                        </button>
+                    </a>
                 </div>
                 <div className='flex justify-center mt-[1rem] gap-4'>
                     <a className='cursor-pointer h-[2rem]' href='https://github.com/thecurioussailor' target='_blank'><FaGithub/></a>
