@@ -1,5 +1,4 @@
 import React from 'react'
-import Project1 from "../assets/project-1.png"
 function ProjectItem({img, title, git, live}) {
   return (
     <div className='p-[1.5rem] flex-1 border-2 rounded-[2rem] border-solid border-zinc-400'>

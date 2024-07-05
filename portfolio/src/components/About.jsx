@@ -28,12 +28,10 @@ function About() {
                     </div>
                     <div>
                         <p className='text-zinc-500 text-justify'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Officia laboriosam nobis blanditiis nulla id, rerum amet in dolor 
-                            odit sunt ad! Et ea inventore eaque, magni optio dignissimos at animi
-                             doloribus tempora voluptates laboriosam itaque quis 
-                             accusamus ducimus asperiores dolorem perspiciatis
-                              dolorum corporis delectus adipisci corrupti sunt nihil, ipsam omnis?
+                        I'm Ashutosh Sagar, a Full Stack Developer with an MCA from Jawaharlal Nehru University, New Delhi. 
+                        I excel in building high-performance web applications and have a proven track record 
+                        with projects like e-commerce platforms and crypto trackers. 
+                        <br/><br/>Let's connect and turn your vision into reality!
                         </p>
                     </div>
                 </div>

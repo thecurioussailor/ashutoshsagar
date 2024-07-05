@@ -1,8 +1,9 @@
 import React from 'react'
 import ProjectItem from './ProjectItem';
 import Project1 from "../assets/swarna-pic.png"
-import Project2 from "../assets/project-2.png"
+import Project2 from "../assets/t-Sizzle.png"
 import Project3 from "../assets/project-3.png"
+import Project4 from "../assets/Heading.png"
 
 const projects = [
   {
@@ -13,15 +14,21 @@ const projects = [
   },
   {
     img: Project2,
-    title:"Swarna",
-    git:"https://github.com/thecurioussailor/swarna",
-    live:"https://swarna.vercel.app/"
+    title:"t-Sizzle",
+    git:"https://github.com/thecurioussailor/tsizzle",
+    live:"https://tsizzle.vercel.app/"
   },
   {
     img: Project3,
-    title:"Swarna",
-    git:"https://github.com/thecurioussailor/swarna",
-    live:"https://swarna.vercel.app/"
+    title:"Quick Transfer",
+    git:"https://github.com/thecurioussailor/payTmApp",
+    live:"https://quicktransfer.netlify.app/"
+  },
+  {
+    img: Project4,
+    title:"Ashutosh Sagar - Porfolio",
+    git:"https://github.com/thecurioussailor/ashutoshsagar",
+    live:"https://ashutoshsagar.vercel.app/"
   }
 ]
 
