@@ -12,7 +12,7 @@ function Profile() {
             <div className='self-center text-center'>
                 <p className='font-semibold text-center mt-4'>Hello, I'm</p>
                 <h1 className='text-[3rem] text-center'>Ashutosh Sagar</h1>
-                <p className='font-semibold text-[1.7rem] mb-[1rem]'>Frontend Developer</p>
+                <p className='font-semibold text-[1.7rem] mb-[1rem]'>Fullstack Developer</p>
                 <div className='flex justify-center gap-[1rem]'>
                     <a href='https://drive.google.com/file/d/16YOmpS4WAiqfw5aewdNGxY4SaU5ONbzP/view?usp=sharing' target='_blank'>
                         <button className='font-semibold p-4 border-2 rounded-3xl'>
