@@ -15,12 +15,12 @@ function Profile() {
                 <p className='font-semibold text-[1.7rem] mb-[1rem]'>Fullstack Developer</p>
                 <div className='flex justify-center gap-[1rem]'>
                     <a href='https://drive.google.com/file/d/16YOmpS4WAiqfw5aewdNGxY4SaU5ONbzP/view?usp=sharing' target='_blank'>
-                        <button className='font-semibold p-4 border-2 rounded-3xl'>
+                        <button className='font-semibold p-4 border-2 rounded-3xl transition-all duration-300 ease-in-out hover:bg-black hover:text-white'>
                             Download CV
                         </button>
                     </a>
                     <a href='#contact'>
-                        <button className='font-semibold p-4 border-2 rounded-3xl'>
+                        <button className='font-semibold p-4 border-2 rounded-3xl transition-all duration-300 ease-in-out hover:bg-black hover:text-white'>
                             Contact Info
                         </button>
                     </a>
