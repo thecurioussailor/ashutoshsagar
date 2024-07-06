@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectItem from './ProjectItem';
 import Project1 from "../assets/swarna-pic.png"
 import Project2 from "../assets/t-Sizzle.png"
-import Project3 from "../assets/project-3.png"
+import Project3 from "../assets/qt1.png"
 import Project4 from "../assets/Heading.png"
 
 const projects = [
