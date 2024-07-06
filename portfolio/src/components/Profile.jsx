@@ -26,9 +26,9 @@ function Profile() {
                     </a>
                 </div>
                 <div className='flex justify-center mt-[1rem] gap-4'>
-                    <a className='cursor-pointer h-[2rem]' href='https://github.com/thecurioussailor' target='_blank'><FaGithub/></a>
-                    <a className='h-[2rem]' href='https://x.com/sagar11ashutosh' target='_blank'><FaTwitter/></a>
-                    <a className='h-[2rem]' href='https://www.linkedin.com/in/ashutosh-sagar-4b2612185/' target='_blank'><FaLinkedin/></a>
+                    <a className='h-[2rem]' href='https://github.com/thecurioussailor' target='_blank'><FaGithub size={20}/></a>
+                    <a className='h-[2rem]' href='https://x.com/sagar11ashutosh' target='_blank'><FaTwitter size={20}/></a>
+                    <a className='h-[2rem]' href='https://www.linkedin.com/in/ashutosh-sagar-4b2612185/' target='_blank'><FaLinkedin size={20}/></a>
                 </div>
             </div>
         </section>
