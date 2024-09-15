@@ -1,18 +1,37 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaBeer, FaCross, FaHamburger, FaWatchmanMonitoring, FaWindowClose } from "react-icons/fa";
+import Logo from "../assets/ashu-dark12.png"
 function Navbar() {
 
     const [isOpen, setIsOpen] = useState(true);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+          if (window.scrollY > 30) {
+              setIsScrolled(true);
+          } else {
+              setIsScrolled(false);
+          }
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  }, []);
   return (
     <div>
-        <nav id="desktop-nav" className="hidden lg:flex justify-around items-center h-[14vh]">
-            <div class="logo" className='text-4xl hover:cursor-default'>Ashutosh Sagar</div>
+        <nav id="desktop-nav" className={`hidden lg:fixed z-20 lg:flex-row lg:w-full bg-[#000] lg:flex justify-around transition-all duration-300 ease-in-out items-center ${isScrolled ? 'h-[8vh]': 'h-[12vh]'} `}>
+            <div class="logo" className=' flex items-center w-[400px] hover:cursor-default text-white font-sofadi'>
+              <img className='object-cover' src={Logo} width={250}/>
+            </div>
             <div>
-                <ul class="nav-links" className='flex gap-8 list-none text text-2xl'>
-                <li><a href="#about" className='text-black no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[1rem] hover:decoration-[#b5b5b5]'>About</a></li>
-                <li><a className='text-black no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[1rem] hover:decoration-[#b5b5b5]' href="#experience">Experience</a></li>
-                <li><a className='text-black no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[1rem] hover:decoration-[#b5b5b5]' href="#projects">Projects</a></li>
-                <li><a className='text-black no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[1rem] hover:decoration-[#b5b5b5]' href="#contact">Contact</a></li>
+                <ul class="nav-links" className='flex gap-8 list-none text text-xl text-white'>
+                <li><a href="#about" className=' no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[.5rem] hover:decoration-[#b5b5b5]'>About</a></li>
+                <li><a className='no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[.5rem] hover:decoration-[#b5b5b5]' href="#experience">Experience</a></li>
+                <li><a className='no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[.5rem] hover:decoration-[#b5b5b5]' href="#projects">Projects</a></li>
+                <li><a className='no-underline decoration-white hover:text-gray-400 hover:underline hover:underline-offset-[.5rem] hover:decoration-[#b5b5b5]' href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>

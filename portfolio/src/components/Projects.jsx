@@ -29,6 +29,12 @@ const projects = [
     title:"Ashutosh Sagar - Porfolio",
     git:"https://github.com/thecurioussailor/ashutoshsagar",
     live:"https://ashutoshsagar.vercel.app/"
+  },
+  {
+    img: Project4,
+    title:"Ashutosh Sagar - Porfolio",
+    git:"https://github.com/thecurioussailor/ashutoshsagar",
+    live:"https://ashutoshsagar.vercel.app/"
   }
 ]
 
